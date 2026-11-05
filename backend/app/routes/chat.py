@@ -39,6 +39,8 @@ async def send_chat_message(payload: Dict[str, Any]):
 
     if not user_prompt:
         raise HTTPException(status_code=400, detail="Mensagem vazia")
+    if len(user_prompt) > 4000:
+        raise HTTPException(status_code=400, detail="Mensagem excede o limite máximo permitido de 4.000 caracteres")
 
     now = time.time()
     with get_db_connection() as conn:

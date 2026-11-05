@@ -12,6 +12,8 @@ def plan_master_request(payload: Dict[str, Any]):
     prompt = payload.get("prompt", "").strip()
     if not prompt:
         raise HTTPException(status_code=400, detail="Prompt obrigatório")
+    if len(prompt) > 4000:
+        raise HTTPException(status_code=400, detail="Prompt excede o limite máximo permitido de 4.000 caracteres")
     client = payload.get("client", "Cliente WINC")
     category = payload.get("category", "Desenvolvimento")
 
@@ -38,6 +40,8 @@ async def interact_master(payload: Dict[str, Any]):
     message = payload.get("message", "").strip()
     if not message:
         raise HTTPException(status_code=400, detail="Mensagem obrigatória")
+    if len(message) > 4000:
+        raise HTTPException(status_code=400, detail="Mensagem excede o limite máximo permitido de 4.000 caracteres")
     conversation_id = payload.get("conversation_id")
     result = await master_ai.interact(user_prompt=message, conversation_id=conversation_id)
     return result

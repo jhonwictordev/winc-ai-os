@@ -58,20 +58,37 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS configuration for desktop and web frontend
+# Restricted CORS configuration strictly for local desktop application and localhost
+ALLOWED_ORIGINS = [
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "tauri://localhost",
+    "app://localhost",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
-# Mount brand assets and storage for direct browser rendering
+# Mount brand assets and public audio cache (strictly isolating SQLite database file from HTTP)
 if BRAND_DIR.exists():
     app.mount("/brand", StaticFiles(directory=str(BRAND_DIR)), name="brand")
-if STORAGE_DIR.exists():
-    app.mount("/storage", StaticFiles(directory=str(STORAGE_DIR)), name="storage")
+
+AUDIO_CACHE_DIR = STORAGE_DIR / "audio_cache"
+AUDIO_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/storage/audio_cache", StaticFiles(directory=str(AUDIO_CACHE_DIR)), name="audio_cache")
+
+OUTPUTS_DIR = STORAGE_DIR / "outputs"
+OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/storage/outputs", StaticFiles(directory=str(OUTPUTS_DIR)), name="outputs")
 
 # Register all API routes
 app.include_router(system_router)
@@ -95,6 +112,10 @@ if DIST_DIR.exists():
 
     @app.get("/{full_path:path}")
     async def serve_frontend(full_path: str):
+        # Do not serve index.html for missing storage, api, or brand assets
+        if full_path.startswith("api/") or full_path.startswith("storage/") or full_path.startswith("brand/"):
+            from fastapi import HTTPException
+            raise HTTPException(status_code=404, detail="Recurso não encontrado")
         file_path = DIST_DIR / full_path
         if file_path.is_file():
             return FileResponse(file_path)

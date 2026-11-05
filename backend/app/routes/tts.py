@@ -75,8 +75,12 @@ async def synthesize_speech(req: SynthesizeRequest):
     if len(text_clean) > 800:
         text_clean = text_clean[:800] + "..."
 
-    voice = req.voice or DEFAULT_MALE_VOICE
+    ALLOWED_VOICE_IDS = {v["id"] for v in OFFICIAL_VOICES}
+    voice = req.voice if req.voice in ALLOWED_VOICE_IDS else DEFAULT_MALE_VOICE
+    
     rate = req.rate or "+0%"
+    if not (rate.startswith(("+", "-")) and rate.endswith("%")):
+        rate = "+0%"
 
     # Generate persistent cache hash
     cache_key = f"{voice}_{rate}_{text_clean}"

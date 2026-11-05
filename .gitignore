@@ -21,10 +21,25 @@ build/
 # Hyperframes clone (reference repository)
 hyperframes/
 
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
 # Audio & Temporary Storage
-storage/audio_cache/*.mp3
+storage/audio_cache/*
+!storage/audio_cache/.gitkeep
+storage/outputs/*
+!storage/outputs/.gitkeep
+storage/projects/*
+!storage/projects/.gitkeep
+storage/workspace/*
+!storage/workspace/.gitkeep
 storage/winc_ai_os.db-shm
 storage/winc_ai_os.db-wal
+storage/winc_ai_os.db-journal
 
 # OS / IDE
 .DS_Store

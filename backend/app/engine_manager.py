@@ -15,6 +15,7 @@ from pathlib import Path
 
 # Add OpenJarvis to sys.path
 from .config import OPENJARVIS_DIR, LOW_RAM_MODE, MAX_CONTEXT_TOKENS, OLLAMA_KEEP_ALIVE
+from .security import validate_remote_url
 if str(OPENJARVIS_DIR / "src") not in sys.path:
     sys.path.insert(0, str(OPENJARVIS_DIR / "src"))
 
@@ -124,6 +125,11 @@ class LowRAMEngineManager:
         """Execute a live ping test against the chosen AI provider."""
         start_time = time.time()
         test_prompt = "Responda em uma linha apenas: 'Conexão WINC AI OS validada com sucesso.'"
+
+        if base_url:
+            valid_url, reason = validate_remote_url(base_url)
+            if not valid_url:
+                return {"status": "error", "error": f"URL rejeitada por segurança (SSRF): {reason}"}
 
         try:
             if provider == "gemini":

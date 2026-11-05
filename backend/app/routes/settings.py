@@ -1,10 +1,11 @@
 """System settings and configuration persistence with live AI provider testing."""
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from typing import Dict, Any, Optional
 from pydantic import BaseModel
 from ..database import get_db_connection, log_audit
 from ..engine_manager import engine_manager
+from ..security import validate_remote_url
 
 router = APIRouter(prefix="/api/settings", tags=["Settings"])
 
@@ -63,6 +64,13 @@ async def test_ai_connection(req: TestConnectionRequest):
 @router.post("")
 def update_settings(payload: Dict[str, Any]):
     """Update system settings and reconfigure engine manager in real time."""
+    # SSRF validation on custom base URLs
+    for url_field in ["openai_base_url", "ollama_url"]:
+        if payload.get(url_field):
+            valid, reason = validate_remote_url(payload[url_field])
+            if not valid:
+                raise HTTPException(status_code=400, detail=f"Parâmetro '{url_field}' inválido: {reason}")
+
     with get_db_connection() as conn:
         for k, v in payload.items():
             # Don't save empty dummy strings if already configured

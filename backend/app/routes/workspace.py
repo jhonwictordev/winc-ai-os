@@ -39,7 +39,7 @@ def execute_workspace_command(payload: Dict[str, Any]):
     if not command:
         raise HTTPException(status_code=400, detail="Comando obrigatório")
 
-    safe_cmd, reason = validate_command_safety(command)
+    safe_cmd, reason, argv = validate_command_safety(command)
     if not safe_cmd:
         raise HTTPException(status_code=403, detail=reason)
 
@@ -49,9 +49,16 @@ def execute_workspace_command(payload: Dict[str, Any]):
         cwd = STORAGE_DIR
 
     try:
+        # On Windows, built-in commands like dir, type, echo are invoked via cmd.exe /c with strict arguments
+        base_cmd = Path(argv[0]).stem.lower()
+        if base_cmd in ("dir", "type", "echo"):
+            exec_args = ["cmd.exe", "/c"] + argv
+        else:
+            exec_args = argv
+
         proc = subprocess.run(
-            command,
-            shell=True,
+            exec_args,
+            shell=False,
             cwd=str(cwd),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
@@ -59,12 +66,13 @@ def execute_workspace_command(payload: Dict[str, Any]):
             timeout=15.0
         )
         log_audit("WORKSPACE_EXEC", "user", f"Executed: {command[:50]}")
+        max_output_len = 100 * 1024
         return {
             "exit_code": proc.returncode,
-            "stdout": proc.stdout,
-            "stderr": proc.stderr
+            "stdout": proc.stdout[:max_output_len] if proc.stdout else "",
+            "stderr": proc.stderr[:max_output_len] if proc.stderr else ""
         }
     except subprocess.TimeoutExpired:
         raise HTTPException(status_code=408, detail="Comando excedeu o tempo limite de segurança (15s)")
     except Exception as ex:
-        raise HTTPException(status_code=500, detail=str(ex))
+        raise HTTPException(status_code=500, detail="Falha na execução do processo em sandbox")
