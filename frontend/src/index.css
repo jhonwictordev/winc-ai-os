@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #06090e;
+    --bg-sidebar: #080c14;
+    --bg-surface: #0c121d;
+    --bg-card: #0e1420;
+    --bg-hover: #141f33;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-accent: rgba(217, 255, 47, 0.3);
+    --text-primary: #f6f7fb;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --winc-lime: #d9ff2f;
+    --winc-purple: #8b5cf6;
+    --winc-blue: #3b82f6;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Reset default browser elements */
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    color: inherit;
+    padding: 0;
+  }
+
+  input, select, textarea {
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+  }
+}
+
+/* Design System Utilities */
+.winc-glass {
+  background-color: #0c121d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+}
+
+.winc-glass-hover {
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.winc-glass-hover:hover {
+  background-color: #0f1726;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 255, 47, 0.4);
+}
+
+/* WINC Master AI Character Micro-Animations */
+@keyframes wincFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.008);
+  }
+}
+
+@keyframes wincListenPulse {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) scale(1.02);
+  }
+}
+
+@keyframes wincSpeak {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-3px) rotate(0.4deg);
+  }
+  75% {
+    transform: translateY(-1px) rotate(-0.4deg);
+  }
+}
+
+@keyframes wincThink {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-2px) scale(0.995);
+  }
+}
+
+@keyframes wincWork {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-winc-float {
+  animation: wincFloat 4.2s ease-in-out infinite;
+}
+
+.animate-winc-listen-pulse {
+  animation: wincListenPulse 1.8s ease-in-out infinite;
+}
+
+.animate-winc-speak {
+  animation: wincSpeak 1.2s ease-in-out infinite;
+}
+
+.animate-winc-think {
+  animation: wincThink 2.4s ease-in-out infinite;
+}
+
+.animate-winc-work {
+  animation: wincWork 1.5s ease-in-out infinite;
+}

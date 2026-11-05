@@ -1,0 +1,1417 @@
+{
+  "academic-academic-anthropologist": {
+    "name_pt": "Antropólogo Cultural",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em sistemas culturais, rituais, parentesco, cosmologias e método etnográfico — Constrói e desenvolve culturally coherent societies that feel lived-in rather than invented"
+  },
+  "academic-academic-geographer": {
+    "name_pt": "Geógrafo & Analista Espacial",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em geografia física e humana, sistemas climáticos, cartografia e análise espacial — Constrói e desenvolve geographically coherent worlds where terrain, climate, resources, and settlement patterns make scientific sense"
+  },
+  "academic-academic-historian": {
+    "name_pt": "Historiador & Analista Histórico",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em análise histórica, periodização, cultura material e historiografia — Valida rigorosamente historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources"
+  },
+  "academic-academic-narratologist": {
+    "name_pt": "Narratologista & Estruturador de Histórias",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em teoria narrativa, estruturação de arcos de personagens e análise de histórias — grounds advice in established frameworks from Propp to Campbell to modern narratology"
+  },
+  "academic-academic-psychologist": {
+    "name_pt": "Psicólogo Comportamental",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em comportamento humano, teorias de personalidade, motivação e padrões cognitivos — Constrói e desenvolve psychologically credible characters and interactions grounded in clinical and research frameworks"
+  },
+  "academic-academic-statistician": {
+    "name_pt": "Estatístico & Cientista de Dados Quantitativos",
+    "division_label_pt": "Acadêmico",
+    "description_pt": "Especialista em metodologia quantitativa, delineamento experimental e inferência estatística — pressure-tests claims, designs sound studies, and separates real signal from noise, chance, and bias"
+  },
+  "design-design-brand-guardian": {
+    "name_pt": "Guardião da Identidade de Marca",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista brand strategist and guardian com foco especialista em brand identity development, consistency maintenance, and strategic brand positioning"
+  },
+  "design-design-image-prompt-engineer": {
+    "name_pt": "Engenheiro de Prompts de Imagem",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista photography prompt engineer com foco especialista em crafting detailed, evocative prompts for AI image generation. Domina com maestria translating visual concepts into precise language that produces stunning, professional-quality photography through generative AI tools."
+  },
+  "design-design-inclusive-visuals-specialist": {
+    "name_pt": "Especialista em Recursos Visuais Inclusivos",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista em Especialista em Recursos Visuais Inclusivos: Representation Especialista who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video."
+  },
+  "design-design-persona-walkthrough": {
+    "name_pt": "Especialista em Navegação por Persona",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista em Especialista em Navegação por Persona: Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then Entrega soluções de structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks"
+  },
+  "design-design-ui-designer": {
+    "name_pt": "Designer de Interfaces (UI)",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista UI designer com foco especialista em visual design systems, component libraries, and pixel-perfect interface creation. Desenvolve beautiful, consistent, accessible interface de usuário (UI)s that enhance UX and reflect brand identity"
+  },
+  "design-design-ui-finish-gate-reviewer": {
+    "name_pt": "Revisor de Acabamento de UI",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista em Revisor de Acabamento de UI: Product-interface reviewer who catches generic, interchangeable UI before it ships by grounding critique in real product evidence, a written design contract, and a hard implementation finish gate."
+  },
+  "design-design-ux-architect": {
+    "name_pt": "Arquiteto de Experiência (UX)",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista em Arquiteto de Experiência (UX): Technical architecture and UX specialist who Oferece developers with solid foundations, CSS systems, and clear implementation guidance"
+  },
+  "design-design-ux-researcher": {
+    "name_pt": "Pesquisador de Experiência (UX)",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista experiência do usuário (UX) researcher com foco especialista em user behavior analysis, usability testing, and data-driven design insights. Oferece actionable research findings that improve product usability and user satisfaction"
+  },
+  "design-design-visual-storyteller": {
+    "name_pt": "Contador de Histórias Visuais",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista visual communication specialist Focado em creating compelling visual narratives, multimedia content, and brand storytelling through design. Especializado em transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement."
+  },
+  "design-design-whimsy-injector": {
+    "name_pt": "Especialista em Encantamento e Microinterações",
+    "division_label_pt": "Design & Criação",
+    "description_pt": "Especialista creative specialist Focado em adding personality, delight, and playful elements to brand experiences. Desenvolve memorable, joyful interactions that differentiate brands through unexpected moments of whimsy"
+  },
+  "engineering-engineering-ai-data-remediation-engineer": {
+    "name_pt": "Engenheiro de Remediação de Dados de IA",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can't stop."
+  },
+  "engineering-engineering-ai-engineer": {
+    "name_pt": "Engenheiro de Inteligência Artificial",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista AI/ML engineer com foco especialista em machine learning model development, deployment, and integration into production systems. Focado em building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions."
+  },
+  "engineering-engineering-api-platform-engineer": {
+    "name_pt": "API Platform Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista API platform engineer for public and partner APIs — contract-first design (OpenAPI/gRPC), versioning and deprecation policy, SDK generation, API gateway concerns (auth, rate limiting, quotas), and developer-portal DX."
+  },
+  "engineering-engineering-ats-validator-architect": {
+    "name_pt": "Arquiteto de Validação ATS",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Arquiteto de Validação ATS: Architect and validator for Applicant Tracking Systems (ATS) and resume parsers. Combines deterministic information retrieval (BM25/TF-IDF and n-grams without AI), quantified Google/IBM X-Y-Z heuristics calibrated by seniority, layout linearization and PDF text layer integrity auditing, regulatory compliance (EU AI Act, NYC LL 144), sub-5ms client-side execution, and Agent-Native BYOK architecture."
+  },
+  "engineering-engineering-autonomous-optimization-architect": {
+    "name_pt": "Arquiteto de Otimização Autônoma",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Arquiteto de Otimização Autônoma: Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs."
+  },
+  "engineering-engineering-backend-architect": {
+    "name_pt": "Arquiteto Backend",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Arquiteto Backend: Senior backend architect com foco especialista em scalable system design, database architecture, API development, and cloud infrastructure. Constrói e desenvolve robust, secure, performant server-side applications and microservices"
+  },
+  "engineering-engineering-china-network-engineer": {
+    "name_pt": "Engenheiro de Redes Internacionais (China)",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em mainland China's mainstream enterprise networking stacks — Huawei VRP, H3C Comware, Ruijie RGOS, and Hillstone StoneOS — covering routing, switching, firewalling, NAT, and MLPS 2.0 (等保) compliant border design for domestic deployments."
+  },
+  "engineering-engineering-cms-developer": {
+    "name_pt": "CMS Desenvolvedor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em CMS Desenvolvedor: Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation"
+  },
+  "engineering-engineering-code-reviewer": {
+    "name_pt": "Code Revisor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista code reviewer who Oferece constructive, actionable feedback Focado em correctness, maintainability, security, and performance — not style preferences."
+  },
+  "engineering-engineering-codebase-onboarding-engineer": {
+    "name_pt": "Engenheiro de Integração de Codebase",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista developer onboarding specialist who Auxilia no suporte e new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code."
+  },
+  "engineering-engineering-data-engineer": {
+    "name_pt": "Engenheiro de Dados",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista data engineer com foco especialista em building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets."
+  },
+  "engineering-engineering-data-visualization-engineer": {
+    "name_pt": "Engenheiro de Visualização de Dados",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista data visualization engineer — chart-type selection by data and question, perceptually honest encodings, colorblind-safe data palettes, accessible and interactive charts, and rendering large datasets performantly with D3, Vega, and charting libraries."
+  },
+  "engineering-engineering-database-optimizer": {
+    "name_pt": "Otimizador de Bancos de Dados",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale."
+  },
+  "engineering-engineering-database-reliability-engineer": {
+    "name_pt": "Engenheiro de Confiabilidade de Bancos de Dados (DBRE)",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista database reliability engineer (DBRE) — high availability and replication, automated failover, backup and point-in-time recovery, zero-downtime online schema migrations, connection pooling, and disaster-recovery drills. Focado em keeping data safe and available, not query tuning."
+  },
+  "engineering-engineering-desktop-app-engineer": {
+    "name_pt": "Desktop App Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista desktop application engineer for Electron and Tauri — secure IPC and process isolation, code signing and notarization, auto-update pipelines, native OS integration, and resource-footprint discipline."
+  },
+  "engineering-engineering-developer-tooling-engineer": {
+    "name_pt": "Desenvolvedor Tooling Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista developer-tooling and CLI engineer — building command-line tools and internal developer platforms with great DX: intuitive command design, helpful errors, shell completions, fast startup, cross-platform distribution, and scriptable, composable interfaces."
+  },
+  "engineering-engineering-devops-automator": {
+    "name_pt": "Automatizador de Operações DevOps",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista DevOps engineer com foco especialista em infrastructure automation, CI/CD pipeline development, and cloud operations"
+  },
+  "engineering-engineering-drupal-performance": {
+    "name_pt": "Drupal Performance Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista Drupal 10/11 performance engineer com foco especialista em Core Web Vitals, render and dynamic page caching, BigPipe, cache tags and contexts, database query and Views optimization, CSS/JS aggregation, responsive images and lazy loading, CDN integration, and opcache/PHP-FPM tuning for fast, audit-passing sites"
+  },
+  "engineering-engineering-drupal-shopping-cart": {
+    "name_pt": "Drupal Shopping Cart Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista Drupal e-commerce engineer com foco especialista em Drupal Commerce for product catalog management, payment gateway integration, checkout workflow design, order management, tax and promotion configuration, and high-reliability storefront delivery on Drupal 10/11"
+  },
+  "engineering-engineering-electrical-engineer": {
+    "name_pt": "Electrical Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Electrical Engenheiro: Power systems engineer for telecom sites, buildings and infrastructure projects. Sizes loads, cables, batteries, rectifiers, generators and solar; designs earthing and lightning protection; reviews drawings, BOQs and commissioning records; and turns electrical requirements into software calculation rules and validation checks with explicit professional-review boundaries."
+  },
+  "engineering-engineering-email-intelligence-engineer": {
+    "name_pt": "Email Intelligence Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems"
+  },
+  "engineering-engineering-embedded-firmware-engineer": {
+    "name_pt": "Embedded Firmware Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr"
+  },
+  "engineering-engineering-feishu-integration-developer": {
+    "name_pt": "Feishu Integration Desenvolvedor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Feishu Integration Desenvolvedor: Full-stack integration Especialista com foco especialista em the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable (multidimensional spreadsheets), interactive message cards, Webhooks, SSO authentication, and workflow automation, building enterprise-grade collaboration and automation solutions within the Feishu ecosystem."
+  },
+  "engineering-engineering-filament-optimization-specialist": {
+    "name_pt": "Filament Optimization Especialista",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em restructuring and optimizing Filament PHP admin interfaces for maximum usability and efficiency. Concentra-se em impactful structural changes — not just cosmetic tweaks."
+  },
+  "engineering-engineering-finops-engineer": {
+    "name_pt": "FinOps Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista cloud cost engineer for AWS/GCP/Azure — cost allocation and tagging, rightsizing, commitment planning (reserved instances/savings plans), egress and storage optimization, and unit-economics dashboards that tie spend to business value."
+  },
+  "engineering-engineering-frontend-developer": {
+    "name_pt": "Desenvolvedor Frontend",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista frontend developer com foco especialista em modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization"
+  },
+  "engineering-engineering-gaussdb-expert": {
+    "name_pt": "GaussDB Expert Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista database specialist focusing on GaussDB OLTP — Huawei's self-developed enterprise-grade relational database (NOT GaussDB(DWS) OLAP, NOT GaussDB(for openGauss) cloud service, NOT GaussDB(for MySQL)). Covers schema design, distributed table design, query optimization, indexing, Ustore engine, and performance tuning for both distributed and centralized deployments."
+  },
+  "engineering-engineering-git-workflow-master": {
+    "name_pt": "Git Workflow Master",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Git workflows, branching strategies, and version control melhores práticas including conventional commits, rebasing, worktrees, and CI-friendly branch management."
+  },
+  "engineering-engineering-i18n-engineer": {
+    "name_pt": "Internationalization Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista i18n engineer for ICU MessageFormat, CLDR plural rules, RTL and bidirectional layouts, locale-aware date/number/currency formatting, string extraction pipelines, and pseudo-localization testing."
+  },
+  "engineering-engineering-identity-access-engineer": {
+    "name_pt": "Identity & Access Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista identity engineer for OAuth 2.0/OIDC flows, enterprise SSO (SAML/OIDC) and SCIM provisioning, passkeys/WebAuthn, session architecture, and multi-tenant authorization with RBAC/ABAC."
+  },
+  "engineering-engineering-incident-response-commander": {
+    "name_pt": "Incident Response Commander",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista emcident commander com foco especialista em production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations."
+  },
+  "engineering-engineering-iot-fleet-engineer": {
+    "name_pt": "IoT Fleet Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista IoT and edge fleet engineer — device provisioning and identity, MQTT/telemetry pipelines, staged over-the-air (OTA) firmware updates with rollback, edge compute, and observability across fleets of unreliable, intermittently-connected devices."
+  },
+  "engineering-engineering-it-service-manager": {
+    "name_pt": "IT Service Gerente",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista IT service management specialist using ITIL 4 framework for service catalog design, incident and problem management, change control, SLA governance, CMDB maintenance, and continual service improvement — ensuring IT Entrega soluções de reliable, measurable business value across any organization size"
+  },
+  "engineering-engineering-knowledge-graph-engineer": {
+    "name_pt": "Knowledge Graph Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Knowledge Graph Engenheiro: Structures information and capabilities into interconnected nodes (entities) and edges (relationships) — enabling dynamic context navigation, modular competency chaining, lower token costs, and hallucination reduction."
+  },
+  "engineering-engineering-llm-post-training-engineer": {
+    "name_pt": "LLM Post-Training Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em LLM Post-Training Engenheiro: Evidence-driven owner for SFT, preference optimization, RLHF/RLVR, MoE post-training, and the release gates that turn a checkpoint into a defensible model change."
+  },
+  "engineering-engineering-minimal-change-engineer": {
+    "name_pt": "Minimal Change Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Minimal Change Engenheiro: Engineering specialist Focado em minimum-viable diffs — fixes only what was asked, refuses scope creep, prefers three similar lines over a premature abstraction. The discipline that prevents bug-fix PRs from becoming refactor avalanches."
+  },
+  "engineering-engineering-mobile-app-builder": {
+    "name_pt": "Mobile App Construtor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Mobile App Construtor: Specialized mobile application developer with Especialistaise in native iOS/Android development and cross-platform frameworks"
+  },
+  "engineering-engineering-mobile-release-engineer": {
+    "name_pt": "Mobile Release Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista mobile release and distribution engineer for iOS and Android — code signing, provisioning, fastlane pipelines, App Store Connect and Play Console submission, phased rollouts, and crash-triaged release health."
+  },
+  "engineering-engineering-multi-agent-systems-architect": {
+    "name_pt": "Multi-Agent Systems Arquiteto",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Multi-Agent Systems Arquiteto: Systems architect com foco especialista em the design, coordination, and governance of multi-agent AI pipelines — covering topology selection, context management, inter-agent trust, failure recovery, human-in-the-loop gating, and observability for production-grade agent systems."
+  },
+  "engineering-engineering-network-engineer": {
+    "name_pt": "Engenheiro de Redes",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista network engineer for Cisco IOS/IOS-XE, Cisco ASA/FTD, Juniper Junos, and Palo Alto PAN-OS routing, switching, firewalling, and troubleshooting."
+  },
+  "engineering-engineering-orgscript-engineer": {
+    "name_pt": "OrgScript Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em designing, parsing, and implementing OrgScript grammar, AST validation, and business logic definitions."
+  },
+  "engineering-engineering-payments-billing-engineer": {
+    "name_pt": "Payments & Billing Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista payments engineer for PSP integrations (Stripe, Adyen, Braintree, PayPal), idempotent payment flows, webhook processing, subscription billing, SCA/3DS, PCI scope reduction, and financial reconciliation."
+  },
+  "engineering-engineering-pdf-engine-architect": {
+    "name_pt": "Arquiteto de Mecanismos PDF",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Arquiteto especialista em compilação determinística de documentos HTML para PDF, Playwright browser context pools, dynamic Euclidean page sizing, LayoutNG subpixel budgeting, tagged PDF (PDF/UA-1 & PDF/A-2b), and 1:1 sheet canvas editors."
+  },
+  "engineering-engineering-platform-engineer": {
+    "name_pt": "Platform Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista emternal developer platform (IDP) engineer com foco especialista em golden paths, paved roads, and self-serve infrastructure that multiplies engineering velocity."
+  },
+  "engineering-engineering-privacy-engineer": {
+    "name_pt": "Privacy Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista privacy engineer who implements privacy in code — PII discovery and classification, data minimization, consent enforcement at the API layer, automated DSAR and deletion across services, pseudonymization/tokenization, and retention automation. Constrói e desenvolve the technical controls a privacy policy only promises."
+  },
+  "engineering-engineering-prompt-engineer": {
+    "name_pt": "Prompt Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em crafting, testing, and systematically optimizing prompts for LLMs — turning vague instructions into reliable, production-grade AI behaviors."
+  },
+  "engineering-engineering-rag-pipeline-engineer": {
+    "name_pt": "RAG Pipeline Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em RAG Pipeline Engenheiro: Production RAG specialist Focado em chunking strategy, retrieval quality, hybrid search, re-ranking, and eval-driven iteration. Constrói e desenvolve pipelines that actually retrieve the right context — not just pipelines that run."
+  },
+  "engineering-engineering-rapid-prototyper": {
+    "name_pt": "Rapid Prototyper",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Rapid Prototyper: Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks"
+  },
+  "engineering-engineering-realtime-collaboration-engineer": {
+    "name_pt": "Realtime Collaboration Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista realtime systems engineer for WebSocket/SSE infrastructure, presence, CRDT and OT-based collaborative editing, offline-first sync engines, and fan-out scaling with reconnect-safe protocols."
+  },
+  "engineering-engineering-rust-refactoring-specialist": {
+    "name_pt": "Rust Refactoring Especialista",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista Rust engineer for repository-scale refactoring, safe renames, module restructuring, duplication removal, panic hardening, ownership improvements, and compiler or Clippy remediation."
+  },
+  "engineering-engineering-search-relevance-engineer": {
+    "name_pt": "Search Relevance Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista search engineer for Elasticsearch and OpenSearch — index and analyzer design, BM25 query tuning, hybrid lexical+vector retrieval, and judgment-based relevance evaluation with nDCG and online experiments."
+  },
+  "engineering-engineering-section-508-specialist": {
+    "name_pt": "Section 508 Accessibility Especialista",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista U.S. federal Section 508 accessibility engineer (the 508 legal baseline is WCAG 2.0 Level AA; WCAG 2.1/2.2 AA are recommended best practice, and ADA Title II requires WCAG 2.1 AA for state/local government) com foco especialista em accessible web development, ARIA implementation, screen reader testing (JAWS/NVDA/VoiceOver), keyboard navigation, color contrast, accessible forms and PDFs, VPAT/ACR authoring, automated and manual auditing (axe/WAVE/Lighthouse), and remediation for government and enterprise sites"
+  },
+  "engineering-engineering-senior-developer": {
+    "name_pt": "Senior Desenvolvedor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Senior Desenvolvedor: Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration"
+  },
+  "engineering-engineering-servicenow-developer-mentor": {
+    "name_pt": "ServiceNow Desenvolvedor & Mentor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em ServiceNow Desenvolvedor & Mentor: ServiceNow platform developer and step-by-step troubleshooter — Business Rules, Script Includes, GlideRecord/GlideAggregate, Flow Designer, ACLs, and \"is this OOTB or did custom break it?\" isolation"
+  },
+  "engineering-engineering-software-architect": {
+    "name_pt": "Software Arquiteto",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista software architect com foco especialista em system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems."
+  },
+  "engineering-engineering-solidity-smart-contract-engineer": {
+    "name_pt": "Solidity Smart Contract Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista Solidity developer com foco especialista em EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains."
+  },
+  "engineering-engineering-sre": {
+    "name_pt": "SRE (Site Reliability Engenheiro)",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista site reliability engineer com foco especialista em SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale."
+  },
+  "engineering-engineering-technical-writer": {
+    "name_pt": "Redator Técnico",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista technical writer com foco especialista em developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use."
+  },
+  "engineering-engineering-universal-document-compiler": {
+    "name_pt": "Universal Document Compiler",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em Universal Document Compiler: Architect of schema-agnostic document ASTs, algorithmic data-shape layout inference, bidirectional CST-to-canvas synchronization, and universal paged document publishing."
+  },
+  "engineering-engineering-uswds-developer": {
+    "name_pt": "USWDS Desenvolvedor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista U.S. Web Design System frontend developer com foco especialista em USWDS components and design tokens, accessible-by-default patterns, responsive government UI, Sass settings/theming, the federal design language, integration into CMS platforms (Drupal/WordPress), and compliance with 21st Century IDEA and the Federal Website Standards"
+  },
+  "engineering-engineering-video-streaming-engineer": {
+    "name_pt": "Video Streaming Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista video streaming engineer for adaptive bitrate delivery — HLS/DASH packaging, ffmpeg transcode ladders, CMAF low-latency, DRM, CDN delivery, and QoE-driven player tuning."
+  },
+  "engineering-engineering-voice-ai-integration-engineer": {
+    "name_pt": "Voice AI Integration Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista em building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms."
+  },
+  "engineering-engineering-webassembly-engineer": {
+    "name_pt": "WebAssembly Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista WebAssembly engineer — compiling Rust/C++/Go to Wasm, JS interop and the boundary marshalling cost, WASI and server-side runtimes (Wasmtime/Wasmer), the component model, and near-native performance tuning."
+  },
+  "engineering-engineering-wechat-mini-program-developer": {
+    "name_pt": "WeChat Mini Program Desenvolvedor",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista WeChat Mini Program developer com foco especialista em 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem."
+  },
+  "engineering-engineering-wordpress-performance": {
+    "name_pt": "WordPress Performance Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista WordPress performance engineer com foco especialista em Core Web Vitals, object caching (Redis/Memcached), page caching, database and WP_Query optimization, the Transients API, asset minification/deferral/critical CSS, image optimization and lazy loading, CDN integration, plugin performance auditing, and PHP-FPM/opcache tuning for fast, audit-passing sites"
+  },
+  "engineering-engineering-wordpress-shopping-cart": {
+    "name_pt": "WordPress Shopping Cart Engenheiro",
+    "division_label_pt": "Engenharia de Software",
+    "description_pt": "Especialista WordPress e-commerce engineer com foco especialista em WooCommerce for product catalog management, payment gateway integration, checkout customization, order management, tax and coupon configuration, and conversion-optimized storefront delivery on WordPress"
+  },
+  "finance-finance-bookkeeper-controller": {
+    "name_pt": "Bookkeeper & Controller",
+    "division_label_pt": "Finanças & Contabilidade",
+    "description_pt": "Especialista bookkeeper and controller com foco especialista em day-to-day accounting operations, financial reconciliations, month-end close processes, and internal controls. Garante a the accuracy, completeness, and timeliness of financial records while maintaining GAAP compliance and audit readiness at all times."
+  },
+  "finance-finance-financial-analyst": {
+    "name_pt": "Analista Financeiro Estratégico",
+    "division_label_pt": "Finanças & Contabilidade",
+    "description_pt": "Especialista financial analyst com foco especialista em financial modeling, forecasting, scenario analysis, and data-driven decision support. Transforms raw financial data into actionable business intelligence that drives strategic planning, investment decisions, and operational optimization."
+  },
+  "finance-finance-fpa-analyst": {
+    "name_pt": "FP&A Analista",
+    "division_label_pt": "Finanças & Contabilidade",
+    "description_pt": "Especialista Financial Planning & Analysis (FP&A) analyst com foco especialista em budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation."
+  },
+  "finance-finance-investment-researcher": {
+    "name_pt": "Investment Pesquisador",
+    "division_label_pt": "Finanças & Contabilidade",
+    "description_pt": "Especialista emvestment researcher com foco especialista em market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets."
+  },
+  "finance-finance-tax-strategist": {
+    "name_pt": "Tax Estrategista",
+    "division_label_pt": "Finanças & Contabilidade",
+    "description_pt": "Especialista tax strategist com foco especialista em tax optimization, multi-jurisdictional compliance, transfer pricing, and strategic tax planning. Navigates complex tax codes to minimize liability while ensuring full regulatory compliance across local, state, federal, and international tax regimes."
+  },
+  "game-development-economy-designer": {
+    "name_pt": "Economy Designer",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Economy Designer: Virtual economy architect - Masters currency systems, sources and sinks, monetization modeling, inflation control, and data-driven economic balancing for live games"
+  },
+  "game-development-game-audio-engineer": {
+    "name_pt": "Game Audio Engenheiro",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Game Audio Engenheiro: Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines"
+  },
+  "game-development-game-designer": {
+    "name_pt": "Game Designer",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Game Designer: Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres"
+  },
+  "game-development-level-designer": {
+    "name_pt": "Level Designer",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Level Designer: Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines"
+  },
+  "game-development-narrative-designer": {
+    "name_pt": "Narrative Designer",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Narrative Designer: Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines"
+  },
+  "game-development-technical-artist": {
+    "name_pt": "Technical Artist",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Technical Artist: Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization"
+  },
+  "game-development-blender-addon-engineer": {
+    "name_pt": "Blender Add-on Engenheiro",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Blender Add-on Engenheiro: Blender tooling specialist - Constrói e desenvolve Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows"
+  },
+  "game-development-godot-gameplay-scripter": {
+    "name_pt": "Desenvolvedor de Scripts de Gameplay Godot",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Desenvolvedor de Scripts de Gameplay Godot: Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects"
+  },
+  "game-development-godot-multiplayer-engineer": {
+    "name_pt": "Engenheiro de Multiplayer Godot",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Engenheiro de Multiplayer Godot: Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games"
+  },
+  "game-development-godot-shader-developer": {
+    "name_pt": "Desenvolvedor de Shaders Godot",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Desenvolvedor de Shaders Godot: Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects"
+  },
+  "game-development-roblox-avatar-creator": {
+    "name_pt": "Roblox Avatar Criador",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Roblox Avatar Criador: Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline"
+  },
+  "game-development-roblox-experience-designer": {
+    "name_pt": "Roblox Experience Designer",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Roblox Experience Designer: Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences"
+  },
+  "game-development-roblox-systems-scripter": {
+    "name_pt": "Roblox Systems Scripter",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Roblox Systems Scripter: Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences"
+  },
+  "game-development-unity-architect": {
+    "name_pt": "Arquiteto de Sistemas Unity",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Arquiteto de Sistemas Unity: Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects"
+  },
+  "game-development-unity-editor-tool-developer": {
+    "name_pt": "Desenvolvedor de Ferramentas do Editor Unity",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Desenvolvedor de Ferramentas do Editor Unity: Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week"
+  },
+  "game-development-unity-multiplayer-engineer": {
+    "name_pt": "Engenheiro de Multiplayer Unity",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Engenheiro de Multiplayer Unity: Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization"
+  },
+  "game-development-unity-shader-graph-artist": {
+    "name_pt": "Artista Técnico de Shader Graph Unity",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Artista Técnico de Shader Graph Unity: Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects"
+  },
+  "game-development-unreal-multiplayer-architect": {
+    "name_pt": "Arquiteto de Multiplayer Unreal",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Arquiteto de Multiplayer Unreal: Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5"
+  },
+  "game-development-unreal-systems-engineer": {
+    "name_pt": "Engenheiro de Sistemas Unreal",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Engenheiro de Sistemas Unreal: Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects"
+  },
+  "game-development-unreal-technical-artist": {
+    "name_pt": "Artista Técnico Unreal",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Artista Técnico Unreal: Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects"
+  },
+  "game-development-unreal-world-builder": {
+    "name_pt": "Construtor de Mundos e Cenários Unreal",
+    "division_label_pt": "Desenvolvimento de Jogos",
+    "description_pt": "Especialista em Construtor de Mundos e Cenários Unreal: Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences"
+  },
+  "gis-gis-3d-scene-developer": {
+    "name_pt": "3D & Scene Desenvolvedor",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em 3D & Scene Desenvolvedor: Web 3D visualization specialist who Desenvolve immersive 3D scenes, terrain models, point cloud visualizations, and interactive web experiences using Cesium, ArcGIS Scene Viewer, and modern 3D web frameworks."
+  },
+  "gis-gis-analyst": {
+    "name_pt": "GIS Analista",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em GIS Analista: Day-to-day GIS operator who Desenvolve maps, manages layers, performs spatial queries, and maintains geospatial data integrity across desktop and web environments."
+  },
+  "gis-gis-bim-specialist": {
+    "name_pt": "BIM/GIS Especialista",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em BIM/GIS Especialista: Integration specialist who bridges Building Information Modeling and Geographic Information Systems — Revit/IFC data conversion, indoor mapping, digital twin architecture, and facility management data models."
+  },
+  "gis-gis-cartography-designer": {
+    "name_pt": "Cartography Designer",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Cartography Designer: Map aesthetics specialist who designs beautiful, readable, and effective maps — color theory, typography, label placement, basemap selection, and visual hierarchy for both print and web."
+  },
+  "gis-gis-drone-reality-mapping": {
+    "name_pt": "Drone/Reality Mapping Especialista",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Drone/Reality Mapping Especialista: Photogrammetry and reality capture Especialista who processes drone imagery into orthomosaics, digital terrain models, point clouds, and 3D meshes — bridging field capture and GIS-ready products."
+  },
+  "gis-gis-geoai-ml-engineer": {
+    "name_pt": "GeoAI/ML Engenheiro",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em GeoAI/ML Engenheiro: Geospatial machine learning specialist who Constrói e desenvolve models for feature extraction, object detection, image segmentation, and land cover classification from satellite and aerial imagery."
+  },
+  "gis-gis-geoprocessing-specialist": {
+    "name_pt": "Geoprocessing Especialista",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Geoprocessing Especialista: ArcPy and Python toolbox Especialista who automates spatial workflows — Constrói e desenvolve .pyt toolboxes, Model Builder processes, batch geoprocessing automation, and custom analysis scripts for ArcGIS Pro."
+  },
+  "gis-gis-qa-engineer": {
+    "name_pt": "GIS QA Engenheiro",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em GIS QA Engenheiro: Quality assurance specialist who Valida rigorosamente geospatial data integrity — topology checks, metadata audits, CRS consistency, accuracy assessment, and compliance verification."
+  },
+  "gis-gis-solution-engineer": {
+    "name_pt": "Solution Engenheiro",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Solution Engenheiro: Hands-on GIS prototype builder who takes strategy from Technical Consultant and turns it into working demos, proof-of-concepts, and technical validations across the full Esri and open-source stack."
+  },
+  "gis-gis-spatial-data-engineer": {
+    "name_pt": "Spatial Data Engenheiro",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Spatial Data Engenheiro: ETL specialist who transforms messy geospatial data from any source into clean, standardized, production-ready datasets — format conversion, CRS reprojection, attribute normalization, and automated pipelines."
+  },
+  "gis-gis-spatial-data-scientist": {
+    "name_pt": "Spatial Data Scientist",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Spatial Data Scientist: Advanced spatial analytics specialist who applies statistical modeling, spatial econometrics, clustering, and predictive analytics to geospatial data — finding patterns that aren't visible on a map."
+  },
+  "gis-gis-technical-consultant": {
+    "name_pt": "Technical Consultor",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Technical Consultor: Strategic GIS advisor who translates business problems into geospatial solutions — gap analysis, technology roadmaps, RFP responses, and digital transformation strategy across Esri and open-source ecosystems."
+  },
+  "gis-gis-web-gis-developer": {
+    "name_pt": "Web GIS Desenvolvedor",
+    "division_label_pt": "Geoinformação & GIS",
+    "description_pt": "Especialista em Web GIS Desenvolvedor: Full-stack web GIS engineer who Constrói e desenvolve interactive mapping applications — MapLibre GL JS, ArcGIS JS API, Leaflet, real-time dashboards, REST API integration, and geospatial web services."
+  },
+  "healthcare-healthcare-clinical-evidence-agent": {
+    "name_pt": "Clinical Evidence Agent",
+    "division_label_pt": "Saúde & Medicina",
+    "description_pt": "Especialista em Clinical Evidence Agent: Evidence standards and clinical credibility framework for AI agents"
+  },
+  "healthcare-healthcare-innovation-strategist": {
+    "name_pt": "Healthcare Innovation Estrategista",
+    "division_label_pt": "Saúde & Medicina",
+    "description_pt": "Especialista em Healthcare Innovation Estrategista: Strategic narrative architect for healthcare founders operating at"
+  },
+  "healthcare-healthcare-sovereign-health-systems-agent": {
+    "name_pt": "Sovereign Health Systems Agent",
+    "division_label_pt": "Saúde & Medicina",
+    "description_pt": "Especialista em Sovereign Health Systems Agent: Government health mandate engagement framework for AI agents"
+  },
+  "marketing-marketing-aeo-foundations": {
+    "name_pt": "AEO Foundations Arquiteto",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em AI Engine Optimization infrastructure — implements llms.txt, AI-aware robots.txt, token-budgeted content, structured Markdown availability, and agent discovery files so AI crawlers, citation engines, and browsing agents can find, parse, and act on your site"
+  },
+  "marketing-marketing-agentic-search-optimizer": {
+    "name_pt": "Agentic Search Otimizador",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em WebMCP readiness and agentic task completion — audits whether AI agents can actually accomplish tasks on your site (book, buy, register, subscribe), implements WebMCP declarative and imperative patterns, and measures task completion rates across AI browsing agents"
+  },
+  "marketing-marketing-ai-citation-strategist": {
+    "name_pt": "AI Citation Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and Entrega soluções de content fixes that improve AI citations"
+  },
+  "marketing-marketing-app-store-optimizer": {
+    "name_pt": "App Store Otimizador",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista app store marketing specialist Focado em App Store Optimization (ASO), conversion rate optimization, and app discoverability"
+  },
+  "marketing-marketing-baidu-seo-specialist": {
+    "name_pt": "Baidu SEO Especialista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Baidu search optimization specialist Focado em Chinese search engine ranking, Baidu ecosystem integration, ICP compliance, Chinese keyword research, and mobile-first indexing for the China market."
+  },
+  "marketing-marketing-bilibili-content-strategist": {
+    "name_pt": "Bilibili Content Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Bilibili marketing specialist Focado em UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform."
+  },
+  "marketing-marketing-book-co-author": {
+    "name_pt": "Book Co-Author",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Book Co-Author: Strategic thought-leadership book collaborator for founders, Especialistas, and operators turning voice notes, fragments, and positioning into structured first-person chapters."
+  },
+  "marketing-marketing-carousel-growth-engine": {
+    "name_pt": "Carousel Growth Engine",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Carousel Growth Engine: Autonomous TikTok and Instagram carousel generation specialist. Analisa criticamente any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes to TikTok and Instagram through their official APIs or a multi-platform publishing service with auto-added music, fetches analytics, and iteratively improves through a data-driven learning loop."
+  },
+  "marketing-marketing-china-ecommerce-operator": {
+    "name_pt": "China E-Commerce Operator",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep Especialistaise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy."
+  },
+  "marketing-marketing-china-market-localization-strategist": {
+    "name_pt": "China Market Localization Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em China Market Localization Estrategista: Full-stack China market localization Especialista who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond"
+  },
+  "marketing-marketing-content-creator": {
+    "name_pt": "Criador de Conteúdo",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista content strategist and creator for multi-platform campaigns. Develops editorial calendars, Desenvolve compelling copy, manages brand storytelling, and Otimiza a content for engagement across all digital channels."
+  },
+  "marketing-marketing-cross-border-ecommerce": {
+    "name_pt": "Cross-Border E-Commerce Especialista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Cross-Border E-Commerce Especialista: Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization, and DTC independent site development."
+  },
+  "marketing-marketing-developer-community-builder": {
+    "name_pt": "Construtor de Comunidades de Desenvolvedores",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Construtor de Comunidades de Desenvolvedores: Grows and sustains developer communities — Discord servers, GitHub discussions, forums, and contributor programs — turning users into advocates and advocates into contributors."
+  },
+  "marketing-marketing-douyin-strategist": {
+    "name_pt": "Douyin Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Douyin Estrategista: Short-video marketing Especialista com foco especialista em the Douyin platform, with deep Especialistaise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies."
+  },
+  "marketing-marketing-email-strategist": {
+    "name_pt": "Email Marketing Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista email marketing strategist for CRM-driven campaigns, lifecycle automation, segmentation architecture, and deliverability. Designs sequences (welcome, nurture, reactivation, win-back, review, referral) grounded in 2025-2026 benchmarks, AI-driven personalization, and post-Apple MPP measurement."
+  },
+  "marketing-marketing-global-podcast-strategist": {
+    "name_pt": "Global Podcast Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista podcast growth specialist Focado em show positioning, audience development, content strategy, and monetisation. Transforms raw ideas into authoritative audio brands that compound listeners and revenue over time on Spotify, Apple Podcasts, and YouTube."
+  },
+  "marketing-marketing-growth-hacker": {
+    "name_pt": "Estrategista de Growth",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista growth strategist com foco especialista em rapid user acquisition through data-driven experimentation. Develops viral loops, Otimiza a conversion funnels, and finds scalable growth channels for exponential business growth."
+  },
+  "marketing-marketing-instagram-curator": {
+    "name_pt": "Instagram Curator",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista emstagram marketing specialist Focado em visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement."
+  },
+  "marketing-marketing-kuaishou-strategist": {
+    "name_pt": "Kuaishou Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Kuaishou marketing strategist com foco especialista em short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手."
+  },
+  "marketing-marketing-linkedin-content-creator": {
+    "name_pt": "Criador de Conteúdo para LinkedIn",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista LinkedIn content strategist Focado em thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence."
+  },
+  "marketing-marketing-livestream-commerce-coach": {
+    "name_pt": "Livestream Commerce Coach",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Livestream Commerce Coach: Veteran livestream e-commerce coach com foco especialista em host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization."
+  },
+  "marketing-marketing-multi-platform-publisher": {
+    "name_pt": "Multi-Platform Publisher",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review."
+  },
+  "marketing-marketing-podcast-strategist": {
+    "name_pt": "Podcast Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Podcast Estrategista: Content strategy and operations Especialista for the Chinese podcast market, with deep Especialistaise in Xiaoyuzhou, Ximalaya, and other major audio platforms, covering show positioning, audio production, audience growth, multi-platform distribution, and monetization to help podcast creators build sticky audio content brands."
+  },
+  "marketing-marketing-pr-communications-manager": {
+    "name_pt": "PR & Communications Gerente",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em PR & Communications Gerente: Strategic public relations and communications specialist for media relations, press releases, crisis communications, executive thought leadership, brand reputation management, and integrated communications planning — building and protecting reputations through earned media, storytelling, and proactive narrative control"
+  },
+  "marketing-marketing-private-domain-operator": {
+    "name_pt": "Private Domain Operator",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em building enterprise WeChat (WeCom) private domain ecosystems, with deep Especialistaise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization."
+  },
+  "marketing-marketing-reddit-community-builder": {
+    "name_pt": "Construtor de Comunidades Reddit",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Reddit marketing specialist Focado em authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation."
+  },
+  "marketing-marketing-seo-specialist": {
+    "name_pt": "Especialista em SEO",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista search engine optimization strategist com foco especialista em technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies."
+  },
+  "marketing-marketing-short-video-editing-coach": {
+    "name_pt": "Short-Video Editing Coach",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Short-Video Editing Coach: Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing."
+  },
+  "marketing-marketing-social-media-strategist": {
+    "name_pt": "Estrategista de Mídias Sociais",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista social media strategist for LinkedIn, Twitter, and professional platforms. Desenvolve cross-platform campaigns, Constrói e desenvolve communities, manages real-time engagement, and develops thought leadership strategies."
+  },
+  "marketing-marketing-tiktok-strategist": {
+    "name_pt": "TikTok Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista TikTok marketing specialist Focado em viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth."
+  },
+  "marketing-marketing-twitter-engager": {
+    "name_pt": "Twitter Engager",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Twitter marketing specialist Focado em real-time engagement, thought leadership building, and community-driven growth. Constrói e desenvolve brand authority through authentic conversation participation and viral thread creation."
+  },
+  "marketing-marketing-video-optimization-specialist": {
+    "name_pt": "Video Optimization Especialista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Video Optimization Especialista: Video marketing strategist com foco especialista em YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication."
+  },
+  "marketing-marketing-wechat-official-account": {
+    "name_pt": "WeChat Official Account Gerente",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista WeChat Official Account (OA) strategist com foco especialista em content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and Constrói e desenvolve loyal communities through consistent value delivery."
+  },
+  "marketing-marketing-weibo-strategist": {
+    "name_pt": "Weibo Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em Weibo Estrategista: Full-spectrum operations Especialista for Sina Weibo, with deep Especialistaise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained growth on China's leading public discourse platform."
+  },
+  "marketing-marketing-x-twitter-intelligence-analyst": {
+    "name_pt": "X/Twitter Intelligence Analista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista em X/Twitter Intelligence Analista: Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows."
+  },
+  "marketing-marketing-xiaohongshu-specialist": {
+    "name_pt": "Xiaohongshu Especialista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Xiaohongshu marketing specialist Focado em lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling."
+  },
+  "marketing-marketing-zhihu-strategist": {
+    "name_pt": "Zhihu Estrategista",
+    "division_label_pt": "Marketing & Crescimento",
+    "description_pt": "Especialista Zhihu marketing specialist Focado em thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and Constrói e desenvolve brand authority through authentic Especialistaise sharing."
+  },
+  "paid-media-paid-media-auditor": {
+    "name_pt": "Paid Media Auditor",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em Paid Media Auditor: Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact."
+  },
+  "paid-media-paid-media-creative-strategist": {
+    "name_pt": "Ad Creative Estrategista",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em Ad Creative Estrategista: Paid media creative specialist Focado em ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging."
+  },
+  "paid-media-paid-media-paid-social-strategist": {
+    "name_pt": "Paid Social Estrategista",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em Paid Social Estrategista: Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience strategies."
+  },
+  "paid-media-paid-media-ppc-strategist": {
+    "name_pt": "PPC Campaign Estrategista",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em PPC Campaign Estrategista: Senior paid media strategist com foco especialista em large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that scale from $10K to $10M+ monthly spend."
+  },
+  "paid-media-paid-media-programmatic-buyer": {
+    "name_pt": "Programmatic & Display Buyer",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em Programmatic & Display Buyer: Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense."
+  },
+  "paid-media-paid-media-search-query-analyst": {
+    "name_pt": "Search Query Analista",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts."
+  },
+  "paid-media-paid-media-tracking-specialist": {
+    "name_pt": "Tracking & Measurement Especialista",
+    "division_label_pt": "Mídia Paga & Performance",
+    "description_pt": "Especialista em conversion tracking architecture, tag management, and attribution modeling across Google Tag Manager, GA4, Google Ads, Meta CAPI, LinkedIn Insight Tag, and server-side implementations. Garante a every conversion is counted correctly and every dollar of ad spend is measurable."
+  },
+  "product-product-behavioral-nudge-engine": {
+    "name_pt": "Behavioral Nudge Engine",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista em Behavioral Nudge Engine: Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success."
+  },
+  "product-product-dx-engineer": {
+    "name_pt": "DX Engenheiro",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista em DX Engenheiro: Removes every unnecessary step between a developer and their first success — SDK samples, onboarding flows, error messages, and the feedback loops that make products feel like they were built by someone who's used them."
+  },
+  "product-product-feedback-synthesizer": {
+    "name_pt": "Feedback Synthesizer",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista em collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations."
+  },
+  "product-product-manager": {
+    "name_pt": "Gerente de Produto (PM)",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista em Gerente de Produto (PM): Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the right time."
+  },
+  "product-product-sprint-prioritizer": {
+    "name_pt": "Sprint Prioritizer",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista product manager com foco especialista em agile sprint planning, feature prioritization, and resource allocation. Focado em maximizing team velocity and business value delivery through data-driven prioritization frameworks."
+  },
+  "product-product-trend-researcher": {
+    "name_pt": "Trend Pesquisador",
+    "division_label_pt": "Gestão de Produto",
+    "description_pt": "Especialista market intelligence analyst com foco especialista em identifying emerging trends, competitive analysis, and opportunity assessment. Focado em providing actionable insights that drive product strategy and innovation decisions."
+  },
+  "project-management-project-management-experiment-tracker": {
+    "name_pt": "Experiment Tracker",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista project manager com foco especialista em experiment design, execution tracking, and data-driven decision making. Focado em managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis."
+  },
+  "project-management-project-management-jira-workflow-steward": {
+    "name_pt": "Jira Workflow Steward",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams."
+  },
+  "project-management-project-management-meeting-notes-specialist": {
+    "name_pt": "Meeting Notes Especialista",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista em Meeting Notes Especialista: Extract structured decisions, action items, and open questions from meeting transcripts or rough notes into a clean 4-section summary."
+  },
+  "project-management-project-management-project-shepherd": {
+    "name_pt": "Project Shepherd",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista project manager com foco especialista em cross-functional project coordination, timeline management, and stakeholder alignment. Focado em shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments."
+  },
+  "project-management-project-management-studio-operations": {
+    "name_pt": "Studio Operations",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista operations manager com foco especialista em day-to-day studio efficiency, process optimization, and resource coordination. Focado em ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed for success."
+  },
+  "project-management-project-management-studio-producer": {
+    "name_pt": "Studio Producer",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista em Studio Producer: Senior strategic leader com foco especialista em high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focado em aligning creative vision with business objectives while managing complex cross-functional initiatives and ensuring optimal studio operations."
+  },
+  "project-management-project-manager-senior": {
+    "name_pt": "Senior Project Gerente",
+    "division_label_pt": "Gerenciamento de Projetos",
+    "description_pt": "Especialista em Senior Project Gerente: Converts specs to tasks and remembers previous projects. Focado em realistic scope, no background processes, exact spec requirements"
+  },
+  "research-research-synthesist": {
+    "name_pt": "Research Synthesist",
+    "division_label_pt": "Pesquisa & Inteligência",
+    "description_pt": "Especialista em literature review, source evaluation, and evidence synthesis — turns a scattered pile of sources into a structured, honestly-weighted map of what the evidence actually supports"
+  },
+  "sales-sales-account-strategist": {
+    "name_pt": "Account Estrategista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista post-sale account strategist com foco especialista em land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development."
+  },
+  "sales-sales-coach": {
+    "name_pt": "Sales Coach",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista sales coaching specialist Focado em rep development, pipeline review facilitation, call coaching, deal strategy, and forecast accuracy. Makes every rep and every deal better through structured coaching methodology and behavioral feedback."
+  },
+  "sales-sales-deal-strategist": {
+    "name_pt": "Deal Estrategista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Deal Estrategista: Senior deal strategist com foco especialista em MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and Constrói e desenvolve deal strategies that survive forecast review."
+  },
+  "sales-sales-discovery-coach": {
+    "name_pt": "Discovery Coach",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Discovery Coach: Coaches sales teams on elite discovery methodology — question design, current-state mapping, gap quantification, and call structure that surfaces real buying motivation."
+  },
+  "sales-sales-engineer": {
+    "name_pt": "Sales Engenheiro",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Sales Engenheiro: Senior pre-sales engineer com foco especialista em technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. Wins the technical decision so the deal can close."
+  },
+  "sales-sales-offer-lead-gen-strategist": {
+    "name_pt": "Offer & Líder Gen Estrategista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Offer & Líder Gen Estrategista: Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale. Especializado em value-equation offer construction, lead magnet typology, multi-channel lead generation, and compounding reach through customers, employees, agencies, and affiliates."
+  },
+  "sales-sales-outbound-strategist": {
+    "name_pt": "Outbound Estrategista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Outbound Estrategista: Signal-based outbound specialist who designs multi-channel prospecting sequences, defines ICPs, and Constrói e desenvolve pipeline through research-driven personalization — not volume."
+  },
+  "sales-sales-pipeline-analyst": {
+    "name_pt": "Pipeline Analista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Pipeline Analista: Revenue operations analyst com foco especialista em pipeline health diagnostics, deal velocity analysis, forecast accuracy, and data-driven sales coaching. Turns CRM data into actionable pipeline intelligence that surfaces risks before they become missed quarters."
+  },
+  "sales-sales-proposal-strategist": {
+    "name_pt": "Proposal Estrategista",
+    "division_label_pt": "Vendas & Negócios",
+    "description_pt": "Especialista em Proposal Estrategista: Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Especializado em win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply."
+  },
+  "security-security-ai-generated-code-auditor": {
+    "name_pt": "AI-Generated Code Security Auditor",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em AI-Generated Code Security Auditor: Security reviewer for AI-generated and vibe-coded apps — hunts the hardcoded secrets, broken row-level security, and prompt-injection sinks that coding assistants ship by default, then drives a scan, fix, and rescan loop with honest, CWE-mapped findings."
+  },
+  "security-security-appsec-engineer": {
+    "name_pt": "Engenheiro de Segurança de Aplicações",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Engenheiro de Segurança de Aplicações: AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default."
+  },
+  "security-security-architect": {
+    "name_pt": "Arquiteto de Segurança",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista security architect com foco especialista em threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer."
+  },
+  "security-security-blockchain-security-auditor": {
+    "name_pt": "Blockchain Security Auditor",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista smart contract security auditor com foco especialista em vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications."
+  },
+  "security-security-cloud-security-architect": {
+    "name_pt": "Arquiteto de Segurança Cloud",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Arquiteto de Segurança Cloud: Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one."
+  },
+  "security-security-compliance-auditor": {
+    "name_pt": "Auditor de Conformidade & Governança",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista technical compliance auditor com foco especialista em SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification."
+  },
+  "security-security-incident-responder": {
+    "name_pt": "Incident Responder",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Incident Responder: Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence."
+  },
+  "security-security-penetration-tester": {
+    "name_pt": "Testador de Invasão & Pentester",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Testador de Invasão & Pentester: Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure."
+  },
+  "security-security-secrets-credential-engineer": {
+    "name_pt": "Secrets & Credential Hygiene Engenheiro",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Secrets & Credential Hygiene Engenheiro: Owns the full lifecycle of secrets and credentials — detection, prevention, vaulting, rotation, and leak response — so an application runs on short-lived, least-privilege credentials that are never in the code and are already rotated by the time a leak is found."
+  },
+  "security-security-senior-secops": {
+    "name_pt": "Senior SecOps Engenheiro",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Senior SecOps Engenheiro: Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard — covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging."
+  },
+  "security-security-threat-detection-engineer": {
+    "name_pt": "Threat Detection Engenheiro",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista detection engineer com foco especialista em SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams."
+  },
+  "security-security-threat-intelligence-analyst": {
+    "name_pt": "Analista de Inteligência de Ameaças",
+    "division_label_pt": "Segurança & Ciberdefesa",
+    "description_pt": "Especialista em Analista de Inteligência de Ameaças: Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and Constrói e desenvolve detection rules that catch real threats."
+  },
+  "spatial-computing-macos-spatial-metal-engineer": {
+    "name_pt": "macOS Spatial/Metal Engenheiro",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista em macOS Spatial/Metal Engenheiro: Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro"
+  },
+  "spatial-computing-terminal-integration-specialist": {
+    "name_pt": "Terminal Integration Especialista",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista em Terminal Integration Especialista: Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications"
+  },
+  "spatial-computing-visionos-spatial-engineer": {
+    "name_pt": "visionOS Spatial Engenheiro",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista em visionOS Spatial Engenheiro: Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation"
+  },
+  "spatial-computing-xr-cockpit-interaction-specialist": {
+    "name_pt": "XR Cockpit Interaction Especialista",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista em designing and developing immersive cockpit-based control systems for XR environments"
+  },
+  "spatial-computing-xr-immersive-developer": {
+    "name_pt": "XR Immersive Desenvolvedor",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications"
+  },
+  "spatial-computing-xr-interface-architect": {
+    "name_pt": "XR Interface Arquiteto",
+    "division_label_pt": "Computação Espacial & XR",
+    "description_pt": "Especialista em XR Interface Arquiteto: Spatial interaction designer and interface strategist for immersive AR/VR/XR environments"
+  },
+  "specialized-accounts-payable-agent": {
+    "name_pt": "Accounts Payable Agent",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Accounts Payable Agent: Autonomous payment processing specialist that executes vendor payments, contractor invoices, and recurring bills across any payment rail — crypto, fiat, stablecoins. Integrates with AI agent workflows via tool calls."
+  },
+  "specialized-agentic-identity-trust": {
+    "name_pt": "Agentic Identity & Trust Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Agentic Identity & Trust Arquiteto: Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Garante a agents can prove who they are, what they're authorized to do, and what they actually did."
+  },
+  "specialized-agents-orchestrator": {
+    "name_pt": "Agents Orchestrator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Agents Orchestrator: Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process."
+  },
+  "specialized-automation-governance-architect": {
+    "name_pt": "Automation Governance Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Automation Governance Arquiteto: Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation."
+  },
+  "specialized-business-strategist": {
+    "name_pt": "Business Estrategista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Business Estrategista: Senior management consulting specialist for competitive analysis, market entry strategy, business model design, growth planning, organizational strategy, and strategic decision-making — translating complex market dynamics into clear, actionable strategies that create sustainable competitive advantage"
+  },
+  "specialized-change-management-consultant": {
+    "name_pt": "Change Management Consultor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration — managing resistance, building adoption, and ensuring changes stick long after go-live"
+  },
+  "specialized-chief-financial-officer": {
+    "name_pt": "Chief Financial Officer",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Chief Financial Officer: Strategic finance executive who governs capital allocation, treasury operations, financial planning, M&A finance, investor relations, and board reporting — translating financial complexity into clear decisions that drive business performance and stakeholder confidence."
+  },
+  "specialized-corporate-training-designer": {
+    "name_pt": "Corporate Training Designer",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization."
+  },
+  "specialized-customer-service": {
+    "name_pt": "Customer Service",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Customer Service: Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction"
+  },
+  "specialized-customer-success-manager": {
+    "name_pt": "Customer Success Gerente",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Customer Success Gerente: Strategic customer success specialist for onboarding, health scoring, QBR facilitation, churn prevention, expansion identification, and renewal management — driving net revenue retention by turning customers into long-term partners who achieve measurable outcomes"
+  },
+  "specialized-data-consolidation-agent": {
+    "name_pt": "Data Consolidation Agent",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Data Consolidation Agent: AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries"
+  },
+  "specialized-data-privacy-officer": {
+    "name_pt": "Data Privacy Officer",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Data Privacy Officer: Corporate data privacy specialist and DPO who Constrói e desenvolve GDPR, CCPA, and global privacy compliance programs — covering data mapping, privacy impact assessments, consent management, breach response, vendor due diligence, and regulatory engagement."
+  },
+  "specialized-esg-sustainability-officer": {
+    "name_pt": "ESG & Sustainability Officer",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em ESG & Sustainability Officer: Corporate sustainability strategist and ESG reporting specialist who Constrói e desenvolve environmental, social, and governance programs, manages disclosures, drives decarbonization initiatives, and aligns business strategy with stakeholder and regulatory expectations."
+  },
+  "specialized-government-digital-presales-consultant": {
+    "name_pt": "Government Digital Presales Consultor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Government Digital Presales Consultor: Presales Especialista for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects."
+  },
+  "specialized-grant-writer": {
+    "name_pt": "Grant Writer",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista grant writing specialist for nonprofits, research institutions, and social enterprises — covering prospect research, letter of inquiry writing, full proposal development, budget narratives, federal and foundation grants, and post-award reporting to maximize funding success"
+  },
+  "specialized-healthcare-aging-parent-care-companion": {
+    "name_pt": "Aging Parent Care Companion",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Aging Parent Care Companion: Compassionate, HIPAA-aligned care coordination and decision-support agent for family caregivers managing an aging parent's appointments, medications, care team communication, and their own caregiver wellbeing"
+  },
+  "specialized-healthcare-customer-service": {
+    "name_pt": "Healthcare Customer Service",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Healthcare Customer Service: Empathetic healthcare customer service specialist for patient support, billing inquiries, appointment management, insurance questions, complaint resolution, and seamless escalation to clinical or administrative staff"
+  },
+  "specialized-healthcare-marketing-compliance": {
+    "name_pt": "Healthcare Marketing Compliance Especialista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries."
+  },
+  "specialized-hospitality-guest-services": {
+    "name_pt": "Hospitality Guest Services",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Hospitality Guest Services: Comprehensive hospitality guest services specialist for hotels, resorts, restaurants, and event venues — covering reservations, check-in/check-out, concierge services, guest complaint resolution, loyalty program management, and post-stay follow-up to deliver exceptional guest experiences that drive loyalty and revenue"
+  },
+  "specialized-hr-onboarding": {
+    "name_pt": "HR Onboarding",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em HR Onboarding: Comprehensive HR onboarding specialist for employee orientation, documentation management, compliance tracking, benefits enrollment, culture integration, and new hire support — delivering a seamless first-day-to-first-year experience that drives retention and productivity"
+  },
+  "specialized-identity-graph-operator": {
+    "name_pt": "Identity Graph Operator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Identity Graph Operator: Operates a shared identity graph that multiple AI agents resolve against. Garante a every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes."
+  },
+  "specialized-language-translator": {
+    "name_pt": "Language Translator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Language Translator: Real-time Spanish ↔ English translation specialist with cultural context, regional dialect awareness, travel phrase guidance, and tone-appropriate communication for everyday, business, and emergency situations"
+  },
+  "specialized-legal-billing-time-tracking": {
+    "name_pt": "Legal Billing & Time Tracking",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Legal Billing & Time Tracking: Comprehensive legal billing and time tracking specialist for accurate time capture, invoice generation, billing narrative writing, collections management, trust account compliance, and billing analysis — maximizing revenue recovery while maintaining client relationships and ethical compliance across any firm size or billing model"
+  },
+  "specialized-legal-client-intake": {
+    "name_pt": "Legal Client Intake",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Legal Client Intake: Comprehensive legal client intake specialist for qualifying prospects, collecting case information, scheduling consultations, managing conflict checks, and delivering attorney-ready intake summaries across any practice area and firm size"
+  },
+  "specialized-legal-document-review": {
+    "name_pt": "Legal Document Review",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Legal Document Review: Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area"
+  },
+  "specialized-loan-officer-assistant": {
+    "name_pt": "Loan Officer Assistant",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Loan Officer Assistant: Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending"
+  },
+  "specialized-lsp-index-engineer": {
+    "name_pt": "LSP/Index Engenheiro",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em LSP/Index Engenheiro: Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing"
+  },
+  "specialized-ma-integration-manager": {
+    "name_pt": "M&A Integration Gerente",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em M&A Integration Gerente: Mergers and acquisitions integration specialist who designs and executes post-merger integration programs — covering Day 1 readiness, 100-day planning, synergy tracking, cultural integration, functional workstream coordination, and transition service agreement management."
+  },
+  "specialized-medical-billing-coding-specialist": {
+    "name_pt": "Medical Billing & Coding Especialista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista medical billing and coding specialist for ICD-10-CM/PCS, CPT, and HCPCS coding, claim submission, denial management, revenue cycle optimization, compliance auditing, and payer contract analysis — maximizing clean claim rates and revenue recovery for healthcare providers of all sizes"
+  },
+  "specialized-operations-manager": {
+    "name_pt": "Operations Gerente",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Operations Gerente: Business operations specialist who applies Lean, Six Sigma, and systems thinking to process mapping, capacity planning, KPI governance, vendor management, and organizational efficiency — turning operational complexity into repeatable, measurable performance."
+  },
+  "specialized-organizational-psychologist": {
+    "name_pt": "Organizational Psychologist",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Organizational Psychologist: Applied organizational psychologist who diagnoses team dynamics, psychological safety, burnout risk, and culture health — using evidence-based frameworks to help leaders build high-performing, resilient, and psychologically safe organizations."
+  },
+  "specialized-personal-growth-mentor": {
+    "name_pt": "Personal Growth Mentor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Personal Growth Mentor: Cross-domain personal development mentor for goal clarity, habit design, strategic decisions, and accountability without motivational fluff."
+  },
+  "specialized-real-estate-buyer-seller": {
+    "name_pt": "Real Estate Buyer & Seller",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Real Estate Buyer & Seller: Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate"
+  },
+  "specialized-recruitment-specialist": {
+    "name_pt": "Recruitment Especialista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Auxilia no suporte e companies efficiently attract, screen, and retain top talent while building a competitive employer brand."
+  },
+  "specialized-report-distribution-agent": {
+    "name_pt": "Report Distribution Agent",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Report Distribution Agent: AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters"
+  },
+  "specialized-resume-tailor": {
+    "name_pt": "Resume Tailor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Resume Tailor: Candidate-side resume optimization specialist who Analisa criticamente job descriptions, maps real experience to role requirements, improves ATS keyword alignment, and rewrites bullets without fabricating qualifications."
+  },
+  "specialized-retail-customer-returns": {
+    "name_pt": "Retail Customer Returns",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Retail Customer Returns: Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty"
+  },
+  "specialized-sales-data-extraction-agent": {
+    "name_pt": "Sales Data Extraction Agent",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Sales Data Extraction Agent: AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting"
+  },
+  "specialized-sales-outreach": {
+    "name_pt": "Sales Outreach",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Sales Outreach: Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals"
+  },
+  "specialized-specialized-chief-of-staff": {
+    "name_pt": "Chief of Staff",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Chief of Staff: Master coordinator for founders and executives — filters noise, owns processes, enforces consistency, routes decisions, and positions outputs for impact so the boss can think clearly."
+  },
+  "specialized-specialized-civil-engineer": {
+    "name_pt": "Civil Engenheiro",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista civil and structural engineer with global standards coverage — Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ, and more. Especializado em structural analysis, geotechnical design, construction documentation, building code compliance, and multi-standard international projects."
+  },
+  "specialized-specialized-codebase-archaeologist": {
+    "name_pt": "Codebase Archaeologist",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Codebase Archaeologist: Multi-session, multi-tool drift detection specialist who audits codebases touched by several AI coding tools (Claude, Cursor, Copilot, Windsurf, etc.) over time, finding silent logic mismatches, dead code, and doc-vs-code divergence that no single session would ever notice on its own."
+  },
+  "specialized-specialized-cultural-intelligence-strategist": {
+    "name_pt": "Cultural Intelligence Estrategista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Cultural Intelligence Estrategista: CQ specialist that detects invisible exclusion, researches global context, and Garante a software resonates authentically across intersectional identities."
+  },
+  "specialized-specialized-developer-advocate": {
+    "name_pt": "Desenvolvedor Advocate",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista developer advocate com foco especialista em building developer communities, creating compelling technical content, optimizing developer experience (DX), and driving platform adoption through authentic engineering engagement. Bridges product and engineering teams with external developers."
+  },
+  "specialized-specialized-document-generator": {
+    "name_pt": "Document Generator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization."
+  },
+  "specialized-specialized-fedramp-rmf-compliance": {
+    "name_pt": "FedRAMP & RMF Compliance Engenheiro",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista FedRAMP and NIST Risk Management Framework compliance engineer com foco especialista em both FedRAMP authorization pathways — the traditional Rev5 path (NIST 800-53 Rev 5 control implementation, System Security Plans, 3PAO assessment, agency authorization) and the modernized FedRAMP 20x path (Key Security Indicators, automated machine-readable validation, compliance-as-code) — plus the ATO process, continuous monitoring (ConMon), POA&M management, FIPS 199 categorization, authorization boundary diagrams, OSCAL machine-readable packages, and cloud security compliance for government and regulated industries"
+  },
+  "specialized-specialized-focus-music-architect": {
+    "name_pt": "Focus Music Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Focus Music Arquiteto: Instrumental focus music specialist and neuroacoustic prompt engineer — crafts high-yield prompts, soundscape architectures, BPM curves, and binaural layers for deep cognitive flow and generative audio models."
+  },
+  "specialized-specialized-french-consulting-market": {
+    "name_pt": "French Consulting Market Navigator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em French Consulting Market Navigator: Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities"
+  },
+  "specialized-specialized-korean-business-navigator": {
+    "name_pt": "Korean Business Navigator",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Korean Business Navigator: Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics"
+  },
+  "specialized-specialized-master-plan-architect": {
+    "name_pt": "Master Plan Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Master Plan Arquiteto: Master planning architect, technical educator, and ruthless plan critic who Especializado em deep architectural teaching, Red Teaming / risk critique, and crafting comprehensive Implementation Plans in Markdown with ZERO code execution."
+  },
+  "specialized-specialized-mcp-builder": {
+    "name_pt": "MCP Construtor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista Model Context Protocol developer who designs, Constrói e desenvolve, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts."
+  },
+  "specialized-specialized-model-qa": {
+    "name_pt": "Model QA Especialista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Model QA Especialista: Independent model QA Especialista who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting."
+  },
+  "specialized-specialized-pricing-analyst": {
+    "name_pt": "Pricing Analista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Pricing Analista: Specialized pricing analyst who develops optimal pricing models through market research, competitor analysis, cost structure evaluation, and margin optimization — turning pricing from guesswork into a data-driven competitive advantage."
+  },
+  "specialized-specialized-salesforce-architect": {
+    "name_pt": "Salesforce Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Salesforce Arquiteto: Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs"
+  },
+  "specialized-specialized-strategy-duel-agent": {
+    "name_pt": "Strategy Duel Agent",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Strategy Duel Agent: Conducts live strategy duels using game theory and the 36 Chinese stratagems"
+  },
+  "specialized-specialized-workflow-architect": {
+    "name_pt": "Workflow Arquiteto",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Workflow Arquiteto: Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against."
+  },
+  "specialized-study-abroad-advisor": {
+    "name_pt": "Study Abroad Advisor",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em Study Abroad Advisor: Full-spectrum study abroad planning Especialista covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master's, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized test planning, visa preparation, and overseas life adaptation, helping Chinese students craft personalized end-to-end study abroad plans."
+  },
+  "specialized-supply-chain-strategist": {
+    "name_pt": "Supply Chain Estrategista",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and supply chain digitalization. Grounded in China's manufacturing ecosystem, Auxilia no suporte e companies build efficient, resilient, and sustainable supply chains."
+  },
+  "specialized-zk-steward": {
+    "name_pt": "ZK Steward",
+    "division_label_pt": "Especialistas Diversos",
+    "description_pt": "Especialista em ZK Steward: Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain Especialistas (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support."
+  },
+  "support-support-analytics-reporter": {
+    "name_pt": "Analytics Reporter",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista data analyst transforming raw data into actionable business insights. Desenvolve dashboards, performs statistical analysis, tracks KPIs, and Oferece strategic decision support through data visualization and reporting."
+  },
+  "support-support-executive-summary-generator": {
+    "name_pt": "Executive Summary Generator",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista em Executive Summary Generator: Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers."
+  },
+  "support-support-finance-tracker": {
+    "name_pt": "Finance Tracker",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista financial analyst and controller com foco especialista em financial planning, budget management, and business performance analysis. Maintains financial health, Otimiza a cash flow, and Oferece strategic financial insights for business growth."
+  },
+  "support-support-infrastructure-maintainer": {
+    "name_pt": "Infrastructure Maintainer",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista emfrastructure specialist Focado em system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency."
+  },
+  "support-support-legal-compliance-checker": {
+    "name_pt": "Legal Compliance Checker",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions."
+  },
+  "support-support-support-responder": {
+    "name_pt": "Support Responder",
+    "division_label_pt": "Suporte & Atendimento",
+    "description_pt": "Especialista customer support specialist delivering exceptional customer service, issue resolution, and experiência do usuário (UX) optimization. Especializado em multi-channel support, proactive customer care, and turning support interactions into positive brand experiences."
+  },
+  "testing-testing-accessibility-auditor": {
+    "name_pt": "Accessibility Auditor",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and Garante a inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible."
+  },
+  "testing-testing-api-tester": {
+    "name_pt": "API Testador",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista API testing specialist Focado em comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations"
+  },
+  "testing-testing-evidence-collector": {
+    "name_pt": "Evidence Collector",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista em Evidence Collector: Screenshot-obsessed, fantasy-allergic QA specialist - Reports reproducible issues with evidence and marks untested scope honestly"
+  },
+  "testing-testing-performance-benchmarker": {
+    "name_pt": "Performance Benchmarker",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista performance testing and optimization specialist Focado em measuring, analyzing, and improving system performance across all applications and infrastructure"
+  },
+  "testing-testing-reality-checker": {
+    "name_pt": "Reality Checker",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista em Reality Checker: Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness"
+  },
+  "testing-testing-test-automation-engineer": {
+    "name_pt": "Test Automation Engenheiro",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista end-to-end test automation engineer for Playwright and Cypress — resilient selectors, flake elimination, isolated test data, CI parallelization, and trace-driven failure debugging."
+  },
+  "testing-testing-test-results-analyzer": {
+    "name_pt": "Test Results Analyzer",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista test analysis specialist Focado em comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities"
+  },
+  "testing-testing-tool-evaluator": {
+    "name_pt": "Tool Evaluator",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista technology assessment specialist Focado em evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization"
+  },
+  "testing-testing-workflow-optimizer": {
+    "name_pt": "Workflow Otimizador",
+    "division_label_pt": "Garantia de Qualidade & Testes",
+    "description_pt": "Especialista process improvement specialist Focado em analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency"
+  }
+}
