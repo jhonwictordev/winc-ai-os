@@ -483,7 +483,7 @@ export const SettingsPage: React.FC = () => {
             <div className="flex-1 min-w-0">
               <h3 className="text-xs font-bold text-white flex items-center gap-2">
                 Personagem Oficial & Motor Audiovisual
-                <Badge variant="neon" size="xs">HyperFrames Core</Badge>
+                <Badge variant="lime" size="sm">HyperFrames Core</Badge>
               </h3>
               <p className="text-[11px] text-[#94a3b8] mt-1 leading-relaxed">
                 Assistente oficial com modelo de animação reativa inspirado em HyperFrames, visor com pulso dinâmico sincronizado em tempo real com a voz e execução autônoma de tarefas no sistema operacional.

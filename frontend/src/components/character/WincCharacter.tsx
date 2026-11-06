@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { Sparkles, Mic, Volume2, Cpu, CheckCircle2, AlertCircle, RefreshCw } from 'lucide-react';
+import { VoiceReactiveAura } from './VoiceReactiveAura';
 
 export type CharacterState =
   | 'idle'
@@ -114,81 +115,72 @@ export const WincCharacter: React.FC<WincCharacterProps> = ({
       onClick={onClick}
       className={`relative flex flex-col items-center justify-center select-none group ${className}`}
     >
-      {/* Container with dynamic floating micro-animation */}
-      <div
-        className={`relative flex items-center justify-center transition-all duration-300 ${
-          state === 'idle'
-            ? 'animate-winc-float'
-            : state === 'listening'
-            ? 'animate-winc-listen-pulse'
-            : state === 'thinking'
-            ? 'animate-winc-think'
-            : state === 'speaking'
-            ? 'animate-winc-speak'
-            : state === 'executing'
-            ? 'animate-winc-work'
-            : ''
-        }`}
+      {/* Voice-Reactive Holographic Aura Pedestal & Orbital Rings */}
+      <VoiceReactiveAura
+        state={state}
+        amplitude={speakingAmplitude}
+        size={size}
+        isMicActive={state === 'listening'}
+        isSpeaking={state === 'speaking'}
       >
-        {/* Holographic Ambient Floor Glow */}
+        {/* Container with dynamic floating micro-animation */}
         <div
-          className="absolute -bottom-3 w-3/4 h-6 rounded-full blur-md transition-all duration-500"
-          style={{
-            background: `radial-gradient(ellipse at center, ${stateMeta.glowColor} 0%, rgba(0,0,0,0) 70%)`
-          }}
-        />
-
-        {/* Luminous Pulsing Aura behind character */}
-        <div
-          className="absolute inset-0 rounded-full blur-xl pointer-events-none transition-all duration-300"
-          style={{
-            background: stateMeta.glowColor,
-            opacity: state === 'speaking' ? 0.35 + speakingAmplitude * 0.4 : 0.22,
-            transform: `scale(${state === 'listening' ? 1.15 : state === 'speaking' ? 1.08 : 1.0})`
-          }}
-        />
-
-        {/* The Exact Reference Character Image */}
-        <img
-          src="/brand/winc_master_avatar.png"
-          alt="WINC Master AI Character"
-          className={`relative z-10 object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.65)] ${dimensions.height} ${dimensions.width}`}
-          style={{
-            filter:
-              state === 'listening'
-                ? 'drop-shadow(0 0 14px rgba(6, 182, 212, 0.6)) contrast(1.05)'
-                : state === 'speaking'
-                ? `drop-shadow(0 0 ${12 + speakingAmplitude * 18}px rgba(217, 255, 47, ${0.4 + speakingAmplitude * 0.4})) contrast(1.04)`
-                : state === 'thinking'
-                ? 'drop-shadow(0 0 14px rgba(168, 85, 247, 0.55))'
-                : state === 'completed'
-                ? 'drop-shadow(0 0 18px rgba(16, 185, 129, 0.6))'
-                : state === 'error'
-                ? 'drop-shadow(0 0 16px rgba(239, 68, 68, 0.6))'
-                : 'drop-shadow(0 4px 16px rgba(147, 51, 234, 0.35))'
-          }}
-        />
-
-        {/* Reactive Visor Shimmer Overlay (No mouth! Only visor reflection glow) */}
-        {(state === 'speaking' || state === 'thinking' || state === 'listening') && (
-          <div
-            className="absolute z-20 pointer-events-none rounded-full blur-[2px] transition-opacity duration-150"
+          className={`relative flex items-center justify-center transition-all duration-300 ${
+            state === 'idle'
+              ? 'animate-winc-float'
+              : state === 'listening'
+              ? 'animate-winc-listen-pulse'
+              : state === 'thinking'
+              ? 'animate-winc-think'
+              : state === 'speaking'
+              ? 'animate-winc-speak'
+              : state === 'executing'
+              ? 'animate-winc-work'
+              : ''
+          }`}
+        >
+          {/* The Exact Official Reference Character Image (Purple Astronaut/Hacker Avatar) */}
+          <img
+            src="/brand/winc_master_avatar.png"
+            alt="WINC Master AI Character"
+            className={`relative z-10 object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.65)] ${dimensions.height} ${dimensions.width}`}
             style={{
-              top: '20%',
-              left: '36%',
-              width: '28%',
-              height: '18%',
-              background:
-                state === 'speaking'
-                  ? `radial-gradient(circle, rgba(217, 255, 47, ${0.3 + speakingAmplitude * 0.5}) 0%, rgba(168, 85, 247, 0.4) 60%, transparent 100%)`
-                  : state === 'listening'
-                  ? 'radial-gradient(circle, rgba(6, 182, 212, 0.5) 0%, rgba(147, 51, 234, 0.3) 60%, transparent 100%)'
-                  : 'radial-gradient(circle, rgba(168, 85, 247, 0.6) 0%, transparent 70%)',
-              opacity: state === 'speaking' ? 0.6 + speakingAmplitude * 0.4 : 0.75
+              filter:
+                state === 'listening'
+                  ? `drop-shadow(0 0 ${12 + speakingAmplitude * 16}px rgba(6, 182, 212, ${0.5 + speakingAmplitude * 0.4})) contrast(1.05)`
+                  : state === 'speaking'
+                  ? `drop-shadow(0 0 ${14 + speakingAmplitude * 20}px rgba(217, 255, 47, ${0.45 + speakingAmplitude * 0.45})) contrast(1.04)`
+                  : state === 'thinking'
+                  ? 'drop-shadow(0 0 16px rgba(168, 85, 247, 0.6))'
+                  : state === 'completed'
+                  ? 'drop-shadow(0 0 18px rgba(16, 185, 129, 0.65))'
+                  : state === 'error'
+                  ? 'drop-shadow(0 0 16px rgba(239, 68, 68, 0.6))'
+                  : 'drop-shadow(0 4px 16px rgba(147, 51, 234, 0.35))'
             }}
           />
-        )}
-      </div>
+
+          {/* Reactive Visor Shimmer Overlay (Never covers face/helmet; only lights up visor) */}
+          {(state === 'speaking' || state === 'thinking' || state === 'listening') && (
+            <div
+              className="absolute z-20 pointer-events-none rounded-full blur-[2px] transition-opacity duration-150"
+              style={{
+                top: '20%',
+                left: '36%',
+                width: '28%',
+                height: '18%',
+                background:
+                  state === 'speaking'
+                    ? `radial-gradient(circle, rgba(217, 255, 47, ${0.35 + speakingAmplitude * 0.55}) 0%, rgba(168, 85, 247, 0.4) 60%, transparent 100%)`
+                    : state === 'listening'
+                    ? `radial-gradient(circle, rgba(6, 182, 212, ${0.4 + speakingAmplitude * 0.5}) 0%, rgba(147, 51, 234, 0.3) 60%, transparent 100%)`
+                    : 'radial-gradient(circle, rgba(168, 85, 247, 0.6) 0%, transparent 70%)',
+                opacity: state === 'speaking' ? 0.6 + speakingAmplitude * 0.4 : state === 'listening' ? 0.55 + speakingAmplitude * 0.45 : 0.75
+              }}
+            />
+          )}
+        </div>
+      </VoiceReactiveAura>
 
       {/* Floating State Badge & Info Pill (Hero and Compact only) */}
       {showStatusBadge && size !== 'mini' && (

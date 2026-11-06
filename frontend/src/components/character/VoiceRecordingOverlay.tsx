@@ -95,6 +95,9 @@ export const VoiceRecordingOverlay: React.FC<VoiceRecordingOverlayProps> = ({ on
       },
       () => {
         // onEnd
+      },
+      (amp) => {
+        broadcastState('listening', amp);
       }
     );
 

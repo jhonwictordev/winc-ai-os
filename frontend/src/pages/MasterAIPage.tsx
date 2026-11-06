@@ -207,6 +207,9 @@ export const MasterAIPage: React.FC<MasterAIPageProps> = ({ onPlanExecuted }) =>
         },
         () => {
           setIsListening(false);
+        },
+        (amp) => {
+          setAmplitude(amp);
         }
       );
     }

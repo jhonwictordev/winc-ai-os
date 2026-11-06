@@ -173,6 +173,9 @@ export const FloatingWincAssistant: React.FC<FloatingWincAssistantProps> = ({
         },
         () => {
           setIsListening(false);
+        },
+        (amp) => {
+          setAmplitude(amp);
         }
       );
     }
